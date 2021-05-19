@@ -1,6 +1,4 @@
-
-
-  #botonera-principal-pages {
+#botonera-principal-pages {
     float: left;
     width: 100%;
     height: auto;
@@ -44,24 +42,51 @@
     color: #DE7586;
 }
 
-.header-pages{
+
+
+.header-pages {
     text-align: right;
     background-color: #7C6B84;
-    padding: 10px;
-    padding-inline-end: 10%;
-  }
-  
-  .header-pages a {
+}
+
+.header-pages a {
     color: #fff;
     padding: 5px;
-  }
+}
 
-  .form-contacto{
+.form-contacto {
     margin: 0 auto;
-    width:75% ;
-  }
+    width: 75%;
+}
 
-  #boton-formulario{
-    margin:5px;
+#boton-formulario {
+    margin: 5px;
+}
 
-  }
+.container-faqs {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 35px;
+}
+
+.sobre-mi {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.imagen-sobre-mi {
+    background-size: cover;
+    width: 100%;
+}
+
+
+.video-portfolio {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    padding-bottom: 50px;
+}

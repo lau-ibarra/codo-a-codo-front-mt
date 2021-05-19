@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    font-family: 'Caveat', serif;    
+    font-family: 'Caveat', serif;
 }
 
 .corazon {
@@ -20,7 +20,7 @@ h1 {
     background-color: #7C6B84;
     color: #fff;
     flex-direction: column;
-  }
+}
 
 #botonera-principal {
     float: right;
@@ -28,7 +28,7 @@ h1 {
     width: 100%;
     height: auto;
     display: block;
-    padding-inline-end: 10%;
+    padding-right: 20px;
 }
 
 #botonera-principal .navbar-nav {
@@ -70,13 +70,12 @@ h1 {
     text-align: right;
     background-color: #7C6B84;
     padding: 10px;
-    padding-inline-end: 10%;
-  }
-  
-  .redes-header a {
+    padding-right: 20px;
+}
+
+.redes-header a {
     color: #fff;
     padding: 5px;
     margin-top: auto;
     margin-bottom: auto;
-  }
-
+}
