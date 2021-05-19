@@ -1,22 +1,74 @@
-.sum_cont_banner{
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../img/fondo01.png);
-}
-.sum_sombra{
-    position: absolute;
+.banner-principal-logo {
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
-   /* -ms-transform: translate(-40%, -20%);
-    -webkit-transform: translate(-40%, -20%);*/
     padding: 20px;
-    width: 80%;
+    width: 100%;
     text-align: center;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: #BCB4C1;
     color: #fff;
     margin: auto;
+    font-weight: bolder;
+    display: block;
+}
+
+.contenedor-logo {
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.banner-principal-logo h1 {
+    font-size: 4vw;
+    margin: 20px;
+}
+
+.banner-principal-logo p {
+    font-size: 4vw;
+    margin-bottom: 10px;
+}
+
+.banner-principal-contenedor-links {
+    margin: 15px;
+    position: relative;
+}
+
+.banner-principal-contenedor-links a {
+    position: relative;
+    color: #7C6B84;
+    text-decoration: none;
+    border: 1px solid #7C6B84;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 180px;
+    display: inline-block;
+}
+
+.banner-principal-contenedor-links a:hover {
+    background-color: #7C6B84;
+    color: #E1BAC7;
+}
+
+.sbanner-principal-links1 {
+    opacity: 0;
+    animation: sum_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: sum_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+}
+
+.banner-principal-links2 {
+    opacity: 0;
+    animation: sum_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: sum_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.banner-principal-links3 {
+    opacity: 0;
+    animation: sum_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: sum_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
 }

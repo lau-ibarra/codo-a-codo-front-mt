@@ -1,0 +1,55 @@
+/* alinea las tres columnas de testimonios */
+
+.testimonios .col-md-4 {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.testimonios h2 {
+  font-weight: 400;
+}
+
+.testimonios .col-md-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.divisor-comentarios {
+  margin: 2.5rem 0;
+}
+
+.encabezado-comentarios {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  .encabezado-comentarios {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .encabezado-comentarios {
+    margin-top: 7rem;
+  }
+}

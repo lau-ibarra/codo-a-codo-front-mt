@@ -1,0 +1,67 @@
+
+
+  #botonera-principal-pages {
+    float: left;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-inline-start: 10%;
+}
+
+#botonera-principal-pages .navbar-nav {
+    width: auto;
+    flex-direction: row;
+}
+
+#botonera-principal-pages ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+
+}
+
+#botonera-principal-pages ul li {
+    display: inline;
+}
+
+#botonera-principal-pages ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*Algunos efectitos para los botones*/
+
+#botonera-principal-pages ul li a:hover {
+    color: #fff;
+    background-color: #BCB4C1;
+}
+
+#botonera-principal-pages ul li a:active {
+    color: #DE7586;
+}
+
+.header-pages{
+    text-align: right;
+    background-color: #7C6B84;
+    padding: 10px;
+    padding-inline-end: 10%;
+  }
+  
+  .header-pages a {
+    color: #fff;
+    padding: 5px;
+  }
+
+  .form-contacto{
+    margin: 0 auto;
+    width:75% ;
+  }
+
+  #boton-formulario{
+    margin:5px;
+
+  }
