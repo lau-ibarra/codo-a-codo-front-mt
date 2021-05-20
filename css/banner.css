@@ -72,3 +72,28 @@
     animation-fill-mode: forwards;
     animation-delay: 1s;
 }
+
+
+.banner-principal-logo-pages {
+    left: 50%;
+    top: 50%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: #BCB4C1;
+    color: #fff;
+    margin: auto;
+    font-weight: bolder;
+    display: block;
+}
+
+.banner-principal-logo-pages h1 {
+    font-size: 4vw;
+    margin: 20px;
+}
+
+.banner-principal-logo-pages p {
+    font-size: 4vw;
+    margin-bottom: 10px;
+}

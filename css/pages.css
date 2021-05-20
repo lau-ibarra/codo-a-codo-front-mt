@@ -3,7 +3,7 @@
     width: 100%;
     height: auto;
     display: block;
-    padding-inline-start: 10%;
+    padding-inline-start: 20px;
 }
 
 #botonera-principal-pages .navbar-nav {
@@ -73,7 +73,8 @@
 
 .sobre-mi {
     margin: 0 auto;
-    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 20px;
     width: 80%;
     margin-bottom: 20px;
 }
@@ -83,10 +84,11 @@
     width: 100%;
 }
 
-
 .video-portfolio {
     margin: 0 auto;
     padding: 20px;
     width: 80%;
     padding-bottom: 50px;
 }
+
+
